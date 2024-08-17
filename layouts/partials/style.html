@@ -24,8 +24,19 @@
   }
 
   a {
-    color: #3273dc;
-    /*color: #ff5e6c;*/
+    color: #232333;
+    font-family: var(--font-main);
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 3px solid #CC5500;
+  }
+
+  hr {
+    border: none;
+    border-top: 5px dotted #CC5500; /* Adjust the color and thickness as needed */
+    border-radius: 0; /* Remove any rounding to make it square */
+    width: 100%; /* Adjust the width as needed */
+
   }
 
   .title {
@@ -122,13 +133,9 @@
     flex: 0 0 130px;
   }
 
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
   @media (prefers-color-scheme: dark) {
     body {
-      background-color: #333;
+      background-color: #2e2e2e;
       color: #ddd;
     }
 
@@ -144,7 +151,11 @@
     }
 
     a {
-      color: #8cc2dd;
+      color: #eee;
+      font-family: var(--font-main);
+      cursor: pointer;
+      text-decoration: none;
+      border-bottom: 3px solid #CC5500;
     }
 
     code {
@@ -160,6 +171,7 @@
     }
 
     textarea,
+
     input {
       background-color: #252525;
       color: #ddd;
