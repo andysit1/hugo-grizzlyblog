@@ -12,11 +12,6 @@ My theme I'm updating as I go improve my personal website. Grizzly has no connec
 
 For a current & working demo of this theme, please check out http://www.andysit.com/
 
-## Screenshots
-
-⬜️ [Light][light-screenshot]
-
-⬛️ [Dark][dark-screenshot]
 
 When the user's browser is running »dark mode«, the dark color scheme will be used automatically. The default is the light/white color scheme. Check out the [`style.html`](https://github.com/janraasch/hugo-bearblog/blob/master/layouts/partials/style.html)-file for the implementation.
 
@@ -84,8 +79,6 @@ Right now the entire theme is copied in themes exampleSite/themes which is a rea
 A special thank you goes out to [Herman](https://herman.bearblog.dev), for creating the original and [Jan](https://github.com/janraasch/hugo-bearblog) for making the original hugo bear theme.
 
 ## License
-[MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Jan Raasch](https://www.janraasch.com)
+[MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Andy Sit](http://www.andysit.com/)
 
 [hugo-setup-guide]: https://gohugo.io/getting-started/installing
-[light-screenshot]: https://raw.githubusercontent.com/janraasch/hugo-bearblog/master/images/screenshot.png
-[dark-screenshot]: https://raw.githubusercontent.com/janraasch/hugo-bearblog/master/images/screenshot-dark.png
