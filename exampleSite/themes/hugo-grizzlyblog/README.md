@@ -1,12 +1,16 @@
 # Hugo ʕ•ᴥ•ʔ Bear Blog ![Test](https://github.com/janraasch/hugo-bearblog/workflows/CI/badge.svg?branch=master&event=push)
 
+
+
 🧸 A [Hugo](https://gohugo.io/)-theme based on [Bear Blog](https://bearblog.dev).
 
 > Free, no-nonsense, super-fast blogging.
 
+My theme I'm updating as I go improve my personal website. Grizzly has no connect to the color brown or anything, I just like Grizzly from we bare bears. Plan is to change the site a lot as I continue developing my website.
+
 ## Demo
 
-For a current & working demo of this theme, please check out https://janraasch.github.io/hugo-bearblog/ 🎯.
+For a current & working demo of this theme, please check out http://www.andysit.com/
 
 ## Screenshots
 
@@ -71,12 +75,13 @@ Please use [GitHub issues](https://github.com/janraasch/hugo-bearblog/issues) an
 Run the `exampleSite` locally via
 
 ```bash
-hugo server --source ./exampleSite --themesDir ../..
+hugo server --source ./exampleSite
 ```
+Right now the entire theme is copied in themes exampleSite/themes which is a really bad idea. I plan to fix that soon.
 
 ## Special Thanks 🎁
 
-A special thank you goes out to [Herman](https://herman.bearblog.dev), for creating the original [ʕ•ᴥ•ʔ Bear Blog](https://bearblog.dev/).
+A special thank you goes out to [Herman](https://herman.bearblog.dev), for creating the original and [Jan](https://github.com/janraasch/hugo-bearblog) for making the original hugo bear theme.
 
 ## License
 [MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Jan Raasch](https://www.janraasch.com)
